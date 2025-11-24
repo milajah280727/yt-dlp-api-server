@@ -1,3 +1,5 @@
+import os
+os.environ['PYTHON_VERSION'] = '3.12'
 from fastapi import FastAPI, Query
 from fastapi.responses import FileResponse, JSONResponse
 import yt_dlp
