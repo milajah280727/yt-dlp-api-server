@@ -11,10 +11,5 @@
       "src": "/(.*)",
       "dest": "api/download.py"
     }
-  ],
-  "functions": {
-    "api/download.py": {
-      "maxDuration": 10
-    }
-  }
+  ]
 }
